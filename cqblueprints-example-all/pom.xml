@@ -32,9 +32,9 @@
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.servicemix.bundles</groupId>
-            <artifactId>org.apache.servicemix.bundles.rome</artifactId>
-            <version>1.0_3</version>
+            <groupId>com.sixdimensions.commons.osgi.wrapper</groupId>
+            <artifactId>rome</artifactId>
+            <version>1.0</version>
         </dependency>
 
 
@@ -60,8 +60,8 @@
                                     <filter>true</filter>
                                 </embedded>
                                 <embedded>
-                                    <groupId>org.apache.servicemix.bundles</groupId>
-                                    <artifactId>org.apache.servicemix.bundles.rome</artifactId>
+                                    <groupId>com.sixdimensions.commons.osgi.wrapper</groupId>
+                                    <artifactId>rome</artifactId>
                                     <filter>true</filter>
                                 </embedded>
                             </embeddeds>
